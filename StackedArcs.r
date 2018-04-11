@@ -56,9 +56,11 @@ upper.half.circle.rotated(0,0,20,nsteps=100,col='white', score = 20)
 upper.half.circle(0,0,10,nsteps=100,col='white')
 
 #Clean up the plotting details
+#This hides the left-overs from rotations
 polygon(c(-50, 50, 50, -50, -50),c(0, 0, -50, -50, 0), col = "white", border = FALSE)
 
-#Draw a base line
+#Draw a base line, easily left out if you don't like it.
 polygon(c(-30, 30),c(0, 0), col = "black")
+
 
 
