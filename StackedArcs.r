@@ -1,4 +1,4 @@
-#Geometric functions load first
+# Geometric functions load first
 upper.half.circle <- function(x,y,r,nsteps=100,  ...){  
   rs <- seq(0, pi, len=nsteps) 
   xc <- x+r*cos(rs) 
